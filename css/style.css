@@ -1,0 +1,47 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background-color: black;
+}
+
+.container_geral{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.task{
+     background-color: rgb(30, 28, 28);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 500px;
+}
+
+.task i{
+     color: white;
+     cursor: pointer;
+     font-size: 24px;
+}
+
+.taskList{
+     width: 500px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style-type: none;
+}
+
+.buttons{
+     cursor: pointer;
+     outline: none;
+}
+
+.buttons i:hover{
+     color: cornflowerblue;
+}
